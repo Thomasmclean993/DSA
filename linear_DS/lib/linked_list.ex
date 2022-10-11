@@ -9,7 +9,6 @@ defmodule LinkedList do
   6. check list for items
   """
 
-
   def new_grocceries("empty"), do: []
   def new_grocceries("full"), do: ["apples", "kale", "salmon", "ribeye"]
 
